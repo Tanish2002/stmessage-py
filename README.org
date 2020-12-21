@@ -1,0 +1,18 @@
+#+TITLE: Stmessage.py
+
+This a rewrite of [[https://github.com/Tanish2002/stmessage-tanish2002][stmessage]] in Python, I made this coz I was having issues in AwesomeWM.
+
+** Requirements
+You need to have python3-xlib installed, if you don't have it then install it using- 
+#+begin_example
+$ python3 -m pip install python3-xlib
+#+end_example
+** Usage
+#+BEGIN_EXAMPLE
+$ git clone https://github.com/Tanish2002/stmessage-py.git
+$ cd stmessage-py
+$ ./stmessage-py <targets>
+#+END_EXAMPLE
+
+** Cython 
+I have included a binary in the cython folder if you don't want to install python3-xlib as a dependency, I have also included the source code so you can compile the binary yourself if you don't trust random binaries from Internet.
